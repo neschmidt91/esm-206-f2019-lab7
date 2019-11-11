@@ -25,7 +25,6 @@ library(kableExtra)
 read in Flint water data
 ```{r}
 
-flint_pb <- read_csv(here::here("github", "flint_water.csv"))
 
 ```
 
