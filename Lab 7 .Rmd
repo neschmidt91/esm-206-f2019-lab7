@@ -1,0 +1,31 @@
+---
+title: "Lab 7"
+author: "Nicole Schmidt"
+date: "11/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+attach packages
+```{r}
+
+library(tidyverse)
+library(here)
+library(janitor)
+library(effsize)
+library(kableExtra)
+```
+
+read in Flint water data
+```{r}
+
+flint_pb <- read_csv(here::here("github", "flint_water.csv"))
+
+```
+
