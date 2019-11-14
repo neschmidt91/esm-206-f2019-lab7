@@ -1,0 +1,22 @@
+---
+title: "Lab 7"
+author: "Nicole Schmidt"
+date: "11/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###One-way and paired t-test examples, Cohens d effect size, and a table 
+##ESM 206 take home lab for week 7
+Nicole Schmidt
+
+attach packages
+```{r}
+
+library(tidyverse)
+library(here)
+library(janitor)
+
